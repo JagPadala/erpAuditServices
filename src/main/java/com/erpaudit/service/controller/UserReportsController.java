@@ -8,8 +8,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/user-dashboard")
 public class UserReportsController {
 
-    @GetMapping
-    public String getUserDashboard(){
-        return "User-Dashboard";
-    }
+	@GetMapping("/test")
+	public String getUserDashboard() {
+		return "User-Dashboard";
+	}
+
 }

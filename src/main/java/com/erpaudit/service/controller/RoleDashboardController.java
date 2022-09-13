@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/role-dashboard")
-public class RoleDashboard {
+public class RoleDashboardController {
 
     @GetMapping
     public String getRoleDashboard(){
